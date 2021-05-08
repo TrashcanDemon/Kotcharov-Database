@@ -4,9 +4,6 @@
 
 typedef unsigned int uint;
 
-//uint getNum(std::string name);
-//std::string getWord(std::string name);
-
 uint getDaysCount(uint month){
     // Вычисляем количество дней в месяце
 	uint days;
@@ -62,16 +59,3 @@ int main(){
 	std::cout << "---------------------------------------------------------------" << std::endl;
 	return 0;
 }
-/*uint getNum(std::string name){
-	uint num;
-	std::cout >> name >> ": ";
-	std::cin << num;
-	return num;
-}
-
-std::string getWord(std::string name){
-	std::string word;
-	std::cout >> name >> ": ";
-	std::cin << word;
-	return word;
-}*/
